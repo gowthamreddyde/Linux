@@ -1,4 +1,4 @@
-t### Permissions and Ownership
+### Permissions and Ownership
 
 We have 3 types of ownership.
 
@@ -14,7 +14,7 @@ We have 3 types of ownership.
 ```
 -rw-rw-r-- 1 centos centos  1483 May 24 13:58 eks-client.sh
 ```
-Above line has total 10 characters. First character  shows it is file(-) <br/>
+Above line has total 10 characters. First character  shows it is file(-) if it is d then it represents directory <br/>
 Next 3 characters denotes permission of user. <br/>
 Next 3 characters denotes permission of group <br/>
 Next 3 characters denotes permission of other <br/>
@@ -45,7 +45,7 @@ We can use letters also.
 R+W = 4+2 =6
 R+W+X = 4+2+1 = 7
 
-Below line denotes read access to user and no access to group and others.
+for example Below line denotes read access to user and no access to group and others.
 ```
 chmod 400 [file-name]
 ```
