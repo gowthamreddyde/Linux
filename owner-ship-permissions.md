@@ -1,4 +1,4 @@
-### Permissions and Ownership
+t### Permissions and Ownership
 
 We have 3 types of ownership.
 
@@ -12,7 +12,7 @@ We have 3 types of ownership.
 **Write:** Denotes by number 2 <br/> 
 **Execute:** Denotes by number 1 <br/>
 ```
--rw-rw-r-- 1 ec2-user ec2-user  1483 May 24 13:58 eks-client.sh
+-rw-rw-r-- 1 centos centos  1483 May 24 13:58 eks-client.sh
 ```
 Above line has total 10 characters. First character  shows it is file(-) <br/>
 Next 3 characters denotes permission of user. <br/>
